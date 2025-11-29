@@ -1,0 +1,7 @@
+LangChain is a framework designed to simplify the creation of applications using large language models (LLMs). Its primary value lies in "chaining" together different components, such as LLMs, prompt templates, and memory, into coherent applications.
+LCEL, or LangChain Expression Language, is a declarative way to compose these chains. It uses standard Python operators (like the pipe |) to sequence components, making chains modular, streamable, and async-friendly.
+Retrieval-Augmented Generation (RAG) is an architectural pattern that enhances the LLM's knowledge by providing it with external, domain-specific information. In this process:
+Relevant documents (context) are retrieved from a vector database (like FAISS).
+The retrieved context is inserted into the LLM's prompt.
+The LLM generates an answer based on this context, reducing hallucinations.
+Gemini 2.5 Flash is Google's fast and efficient multimodal model, designed for high-volume tasks like RAG and conversational AI. Gemini models are accessible through the langchain-google-genai package.

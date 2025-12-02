@@ -5,3 +5,4 @@ langchain-core
 faiss-cpu
 pydantic
 pypdf
+pandas

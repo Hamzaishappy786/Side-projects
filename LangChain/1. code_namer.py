@@ -40,7 +40,3 @@ print("Suggested Pythonic Names:\n")
 # The response from a ChatModel (llm) is a ChatMessage object.
 # We extract the string content using the .content attribute.
 print(response.content)
-
-# We remove the duplicate code block that was causing errors.
-# We remove: suggested_names = name_chain.invoke({"description": description_input})['text']
-# ChatModel output does not have a 'text' key.

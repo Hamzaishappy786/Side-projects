@@ -1,0 +1,3 @@
+2025/12/07-01:57:17.931 47b4 Creating DB C:\Users\gamer\PycharmProjects\Side-projects\chrome_temp_profile\Default\IndexedDB\https_hailuoai.video_0.indexeddb.leveldb since it was missing.
+2025/12/07-01:57:17.941 47b4 Reusing MANIFEST C:\Users\gamer\PycharmProjects\Side-projects\chrome_temp_profile\Default\IndexedDB\https_hailuoai.video_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/07-01:57:18.015 47b4 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

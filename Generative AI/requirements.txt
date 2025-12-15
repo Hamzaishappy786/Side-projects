@@ -1,9 +1,0 @@
-langchain
-langchain-google-genai
-chromadb
-pypdf
-SpeechRecognition
-gTTS
-pygame
-pyaudio
-flask

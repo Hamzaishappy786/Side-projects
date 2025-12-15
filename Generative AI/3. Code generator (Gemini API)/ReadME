@@ -1,5 +1,0 @@
-This is a simple and a naive code generator,
-made with nothing but a gemini API,
-with no track of what is being asked above,
-there is no case of database,
-just a single query user asked for.

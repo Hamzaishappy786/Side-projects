@@ -1,0 +1,8 @@
+transformers
+datasets
+sentencepiece
+sacremoses
+sacrebleu
+evaluate
+accelerate
+torch

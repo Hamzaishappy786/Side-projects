@@ -1,0 +1,30 @@
+# .github/workflows/calculator.yml
+
+name: Run Python Calculator
+
+# Trigger: Ye workflow jab run hoga jab tum 'main' branch par push karo ge
+on:
+  push:
+    branches:
+      - main
+
+# Jobs: Kya kaam karna hai
+jobs:
+  run-calculator:
+    # Runner: Kaam kis environment mein run hoga
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Repository ka code checkout karna
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Step 2: Python 3.10 setup karna
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # Step 3: Calculator script run karna
+      - name: Run the calculator script
+        run: python "Other than Gen AI/calculator.py"

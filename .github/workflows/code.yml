@@ -15,3 +15,4 @@ jobs:
 
       - name: Running Logic Test
         run: python "Other than Gen AI/index.py"
+        working-directory: .

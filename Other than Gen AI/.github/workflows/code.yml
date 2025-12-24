@@ -1,0 +1,17 @@
+name: Python Code Checker
+
+on: [push] # Ye aik trigger hai gul, jab bhi ham push karen ge to deployment shuru ho jaye gi hamari taraf
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest   # ye wo virtual env hai jis pe code kabhi bhi run karlega
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setting up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Running Logic Test
+        run: python index.py

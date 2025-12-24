@@ -14,4 +14,4 @@ jobs:
           python-version: '3.12'
 
       - name: Running Logic Test
-        run: python "Other than Gen AI/workflows/index.py"
+        run: python "Other than Gen AI/index.py"
